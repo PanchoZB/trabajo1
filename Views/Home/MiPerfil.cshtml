@@ -1,0 +1,23 @@
+﻿@model trabajo1.Models.PerfilViewModel
+<html > 
+    <head>
+        <title>Alumno</title>
+    </head>
+    <body>
+        <img src="~/img/naruto.jpg" width="350" height="250" />
+    <h1>Datos del perfil</h1>
+    <dl>
+        <dt>Nombre:</dt>
+        <dd>@Model.Nombre</dd>
+        <dt>Materia:</dt>
+        <dd>@Model.Materia</dd>
+        <dt>semestre:</dt>
+        <dd>@Model.Semestre</dd>
+        <dt>Periodo:</dt>
+        <dd>@Model.Periodo</dd>
+    </dl>
+    <a href="~/Home/Index">
+    volver    
+    </a>
+    </body>
+</html>
